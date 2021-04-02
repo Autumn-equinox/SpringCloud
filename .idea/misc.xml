@@ -5,10 +5,18 @@
       <list>
         <option value="$PROJECT_DIR$/01-springcloud-provider-first/pom.xml" />
         <option value="$PROJECT_DIR$/02-springcloud-consumer-first/pom.xml" />
+        <option value="$PROJECT_DIR$/03-springcloud-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/04-springboot-eureka-client-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/04-springcloud-eureka-client-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/05-springcloud-eureka-client-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/06-springcloud-eureka-cluster-server9100/pom.xml" />
+        <option value="$PROJECT_DIR$/07-springcloud-eureka-cluster-server9200/pom.xml" />
+        <option value="$PROJECT_DIR$/08-springcloud-eureka-client-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/09-springcloud-eureka-client-consumer/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" project-jdk-name="15" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

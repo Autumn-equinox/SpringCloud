@@ -4,6 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01-springcloud-provider-first/01-springcloud-provider-first.iml" filepath="$PROJECT_DIR$/01-springcloud-provider-first/01-springcloud-provider-first.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-springcloud-consumer-first/02-springcloud-consumer-first.iml" filepath="$PROJECT_DIR$/02-springcloud-consumer-first/02-springcloud-consumer-first.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-springcloud-eureka-server/03-springcloud-eureka-server.iml" filepath="$PROJECT_DIR$/03-springcloud-eureka-server/03-springcloud-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-springcloud-eureka-client-provider/04-springcloud-eureka-client-provider.iml" filepath="$PROJECT_DIR$/04-springcloud-eureka-client-provider/04-springcloud-eureka-client-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-springcloud-eureka-client-consumer/05-springcloud-eureka-client-consumer.iml" filepath="$PROJECT_DIR$/05-springcloud-eureka-client-consumer/05-springcloud-eureka-client-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-springcloud-eureka-cluster-server9100/06-springcloud-eureka-cluster-server9100.iml" filepath="$PROJECT_DIR$/06-springcloud-eureka-cluster-server9100/06-springcloud-eureka-cluster-server9100.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-springcloud-eureka-cluster-server9200/07-springcloud-eureka-cluster-server9200.iml" filepath="$PROJECT_DIR$/07-springcloud-eureka-cluster-server9200/07-springcloud-eureka-cluster-server9200.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-springcloud-eureka-client-provider/08-springcloud-eureka-client-provider.iml" filepath="$PROJECT_DIR$/08-springcloud-eureka-client-provider/08-springcloud-eureka-client-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-springcloud-eureka-client-consumer/09-springcloud-eureka-client-consumer.iml" filepath="$PROJECT_DIR$/09-springcloud-eureka-client-consumer/09-springcloud-eureka-client-consumer.iml" />
     </modules>
   </component>
 </project>
