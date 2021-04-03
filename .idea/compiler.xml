@@ -15,6 +15,21 @@
         <module name="07-springcloud-eureka-cluster-server9200" />
         <module name="08-springcloud-eureka-client-provider" />
         <module name="09-springcloud-eureka-client-consumer" />
+        <module name="10-eureka-service-ribbon" />
+        <module name="11-eureka-client-provider8081-ribbon" />
+        <module name="12-eureka-client-provider8082-ribbon" />
+        <module name="13-eureka-client-consumer-ribbon" />
+        <module name="14-eureka-client-consumer8080-ribbon" />
+        <module name="15-server-hystrix" />
+        <module name="16-provider-client-hystrix" />
+        <module name="17-consumer-client-hystrix" />
+        <module name="18-maven-modify-server-hystrix" />
+        <module name="19-maven-modify-client-provider-hystrix" />
+        <module name="20-maven-modify-client-consumer-hystrix" />
+        <module name="21-maven-modify-hystrix-dashboard" />
+        <module name="22-feign-server" />
+        <module name="23-feign-client-provider" />
+        <module name="24-feign-client-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +43,21 @@
       <module name="07-springcloud-eureka-cluster-server9200" target="1.8" />
       <module name="08-springcloud-eureka-client-provider" target="1.8" />
       <module name="09-springcloud-eureka-client-consumer" target="1.8" />
+      <module name="10-eureka-service-ribbon" target="1.8" />
+      <module name="11-eureka-client-provider8081-ribbon" target="1.8" />
+      <module name="12-eureka-client-provider8082-ribbon" target="1.8" />
+      <module name="13-eureka-client-consumer-ribbon" target="1.8" />
+      <module name="14-eureka-client-consumer8080-ribbon" target="1.8" />
+      <module name="15-server-hystrix" target="1.8" />
+      <module name="16-provider-client-hystrix" target="1.8" />
+      <module name="17-consumer-client-hystrix" target="1.8" />
+      <module name="18-maven-modify-server-hystrix" target="1.8" />
+      <module name="19-maven-modify-client-provider-hystrix" target="1.8" />
+      <module name="20-maven-modify-client-consumer-hystrix" target="1.8" />
+      <module name="21-maven-modify-hystrix-dashboard" target="1.8" />
+      <module name="22-feign-server" target="1.8" />
+      <module name="23-feign-client-provider" target="1.8" />
+      <module name="24-feign-client-consumer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -42,6 +72,21 @@
       <module name="07-springcloud-eureka-cluster-server9200" options="-parameters" />
       <module name="08-springcloud-eureka-client-provider" options="-parameters" />
       <module name="09-springcloud-eureka-client-consumer" options="-parameters" />
+      <module name="10-eureka-service-ribbon" options="-parameters" />
+      <module name="11-eureka-client-provider8081-ribbon" options="-parameters" />
+      <module name="12-eureka-client-provider8082-ribbon" options="-parameters" />
+      <module name="13-eureka-client-consumer-ribbon" options="-parameters" />
+      <module name="14-eureka-client-consumer8080-ribbon" options="-parameters" />
+      <module name="15-server-hystrix" options="-parameters" />
+      <module name="16-provider-client-hystrix" options="-parameters" />
+      <module name="17-consumer-client-hystrix" options="-parameters" />
+      <module name="18-maven-modify-server-hystrix" options="-parameters" />
+      <module name="19-maven-modify-client-provider-hystrix" options="-parameters" />
+      <module name="20-maven-modify-client-consumer-hystrix" options="-parameters" />
+      <module name="21-maven-modify-hystrix-dashboard" options="-parameters" />
+      <module name="22-feign-server" options="-parameters" />
+      <module name="23-feign-client-provider" options="-parameters" />
+      <module name="24-feign-client-consumer" options="-parameters" />
     </option>
   </component>
 </project>

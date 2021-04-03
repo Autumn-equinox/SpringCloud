@@ -13,6 +13,21 @@
         <option value="$PROJECT_DIR$/07-springcloud-eureka-cluster-server9200/pom.xml" />
         <option value="$PROJECT_DIR$/08-springcloud-eureka-client-provider/pom.xml" />
         <option value="$PROJECT_DIR$/09-springcloud-eureka-client-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/10-eureka-service-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/11-eureka-client-provider8081-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/12-eureka-client-provider8082-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/13-eureka-client-consumer-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/14-eureka-client-consumer8080-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/15-server-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/16-provider-client-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/17-consumer-client-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/18-maven-modify-server-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/19-maven-modify-client-provider-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/20-maven-modify-client-consumer-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/21-maven-modify-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/22-feign-server/pom.xml" />
+        <option value="$PROJECT_DIR$/23-feign-client-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/24-feign-client-consumer/pom.xml" />
       </list>
     </option>
   </component>

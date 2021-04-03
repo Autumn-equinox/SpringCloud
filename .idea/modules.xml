@@ -11,6 +11,21 @@
       <module fileurl="file://$PROJECT_DIR$/07-springcloud-eureka-cluster-server9200/07-springcloud-eureka-cluster-server9200.iml" filepath="$PROJECT_DIR$/07-springcloud-eureka-cluster-server9200/07-springcloud-eureka-cluster-server9200.iml" />
       <module fileurl="file://$PROJECT_DIR$/08-springcloud-eureka-client-provider/08-springcloud-eureka-client-provider.iml" filepath="$PROJECT_DIR$/08-springcloud-eureka-client-provider/08-springcloud-eureka-client-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/09-springcloud-eureka-client-consumer/09-springcloud-eureka-client-consumer.iml" filepath="$PROJECT_DIR$/09-springcloud-eureka-client-consumer/09-springcloud-eureka-client-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-eureka-service-ribbon/10-eureka-service-ribbon.iml" filepath="$PROJECT_DIR$/10-eureka-service-ribbon/10-eureka-service-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-eureka-client-provider8081-ribbon/11-eureka-client-provider8081-ribbon.iml" filepath="$PROJECT_DIR$/11-eureka-client-provider8081-ribbon/11-eureka-client-provider8081-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12-eureka-client-provider8082-ribbon/12-eureka-client-provider8082-ribbon.iml" filepath="$PROJECT_DIR$/12-eureka-client-provider8082-ribbon/12-eureka-client-provider8082-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13-eureka-client-consumer-ribbon/13-eureka-client-consumer-ribbon.iml" filepath="$PROJECT_DIR$/13-eureka-client-consumer-ribbon/13-eureka-client-consumer-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14-eureka-client-consumer8080-ribbon/14-eureka-client-consumer8080-ribbon.iml" filepath="$PROJECT_DIR$/14-eureka-client-consumer8080-ribbon/14-eureka-client-consumer8080-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15-server-hystrix/15-server-hystrix.iml" filepath="$PROJECT_DIR$/15-server-hystrix/15-server-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16-provider-client-hystrix/16-provider-client-hystrix.iml" filepath="$PROJECT_DIR$/16-provider-client-hystrix/16-provider-client-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/17-consumer-client-hystrix/17-consumer-client-hystrix.iml" filepath="$PROJECT_DIR$/17-consumer-client-hystrix/17-consumer-client-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18-maven-modify-server-hystrix/18-maven-modify-server-hystrix.iml" filepath="$PROJECT_DIR$/18-maven-modify-server-hystrix/18-maven-modify-server-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19-maven-modify-client-provider-hystrix/19-maven-modify-client-provider-hystrix.iml" filepath="$PROJECT_DIR$/19-maven-modify-client-provider-hystrix/19-maven-modify-client-provider-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20-maven-modify-client-consumer-hystrix/20-maven-modify-client-consumer-hystrix.iml" filepath="$PROJECT_DIR$/20-maven-modify-client-consumer-hystrix/20-maven-modify-client-consumer-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21-maven-modify-hystrix-dashboard/21-maven-modify-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/21-maven-modify-hystrix-dashboard/21-maven-modify-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/22-feign-server/22-feign-server.iml" filepath="$PROJECT_DIR$/22-feign-server/22-feign-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/23-feign-client-provider/23-feign-client-provider.iml" filepath="$PROJECT_DIR$/23-feign-client-provider/23-feign-client-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/24-feign-client-consumer/24-feign-client-consumer.iml" filepath="$PROJECT_DIR$/24-feign-client-consumer/24-feign-client-consumer.iml" />
     </modules>
   </component>
 </project>

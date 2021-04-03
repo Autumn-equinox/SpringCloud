@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3e6a872-5971-4825-932d-980ab41a3b1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/04-springcloud-eureka-client-provider/src/main/java/gitee/equinox/springcloud/controller/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-springcloud-eureka-client-provider/src/main/java/gitee/equinox/springcloud/controller/ProviderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-springcloud-eureka-client-consumer/src/main/java/gitee/equinox/springcloud/config/RestTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-springcloud-eureka-client-consumer/src/main/java/gitee/equinox/springcloud/controller/ConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-maven-modify-server-hystrix/src/main/java/gitee/equinox/springcloud/EurekaServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-maven-modify-server-hystrix/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-maven-modify-server-hystrix/src/test/java/gitee/equinox/springcloud/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-maven-modify-client-provider-hystrix/src/main/java/gitee/equinox/springcloud/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-maven-modify-client-provider-hystrix/src/main/java/gitee/equinox/springcloud/controller/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-maven-modify-client-provider-hystrix/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-maven-modify-client-provider-hystrix/src/test/java/gitee/equinox/springcloud/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20-maven-modify-client-consumer-hystrix/src/main/java/gitee/equinox/springcloud/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20-maven-modify-client-consumer-hystrix/src/main/java/gitee/equinox/springcloud/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20-maven-modify-client-consumer-hystrix/src/main/java/gitee/equinox/springcloud/controller/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20-maven-modify-client-consumer-hystrix/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20-maven-modify-client-consumer-hystrix/src/test/java/gitee/equinox/springcloud/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21-maven-modify-hystrix-dashboard/src/main/java/gitee/equinox/springcloud/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21-maven-modify-hystrix-dashboard/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21-maven-modify-hystrix-dashboard/src/test/java/gitee/equinox/springcloud/ApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/01-springcloud-provider-first/target/" />
     <ignored path="$PROJECT_DIR$/02-springcloud-consumer-first/target/" />
@@ -17,6 +28,21 @@
     <ignored path="$PROJECT_DIR$/07-springcloud-eureka-cluster-server9200/target/" />
     <ignored path="$PROJECT_DIR$/08-springcloud-eureka-client-provider/target/" />
     <ignored path="$PROJECT_DIR$/09-springcloud-eureka-client-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/10-eureka-service-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/11-eureka-client-provider8081-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/12-eureka-client-provider8082-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/13-eureka-client-consumer-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/14-eureka-client-consumer8080-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/15-server-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/16-provider-client-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/17-consumer-client-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/18-maven-modify-server-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/19-maven-modify-client-provider-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/20-maven-modify-client-consumer-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/21-maven-modify-hystrix-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/22-feign-server/target/" />
+    <ignored path="$PROJECT_DIR$/23-feign-client-provider/target/" />
+    <ignored path="$PROJECT_DIR$/24-feign-client-consumer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,57 +57,16 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09-springcloud-eureka-client-consumer/src/main/java/gitee/equinox/springcloud/Consumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08-springcloud-eureka-client-provider/src/main/java/gitee/equinox/springcloud/Provider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08-springcloud-eureka-client-provider/src/main/java/gitee/equinox/springcloud/controller/ProviderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-springcloud-eureka-cluster-server9100/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07-springcloud-eureka-cluster-server9200/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/22-feign-server/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-springcloud-eureka-cluster-server9100/src/main/java/gitee/equiinox/springcloud/Server9100.java">
+        <entry file="file://$PROJECT_DIR$/22-feign-server/src/main/java/gitee/equinox/springcloud/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
               <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
@@ -90,45 +75,69 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09-springcloud-eureka-client-consumer/src/main/java/gitee/equinox/springcloud/config/RestTemplateConfig.java">
+        <entry file="file://$PROJECT_DIR$/23-feign-client-provider/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/23-feign-client-provider/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="115">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09-springcloud-eureka-client-consumer/src/main/java/gitee/equinox/springcloud/controller/ConsumerController.java">
+        <entry file="file://$PROJECT_DIR$/23-feign-client-provider/src/main/java/gitee/equinox/springcloud/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="253">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/23-feign-client-provider/src/main/java/gitee/equinox/springcloud/controller/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/24-feign-client-consumer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-322">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/24-feign-client-consumer/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/09-springcloud-eureka-client-consumer/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/24-feign-client-consumer/src/main/java/gitee/equinox/springcloud/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" lean-forward="true" selection-end-line="12" />
+            <state relative-caret-position="184">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08-springcloud-eureka-client-provider/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/04-springcloud-eureka-client-provider/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state>
+              <caret selection-end-line="5" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -148,41 +157,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/01-springcloud-provider-first/pom.xml" />
-        <option value="$PROJECT_DIR$/02-springcloud-consumer-first/pom.xml" />
-        <option value="$PROJECT_DIR$/01-springcloud-provider-first/src/main/java/gitee/equinox/springcloud/Provider.java" />
-        <option value="$PROJECT_DIR$/01-springcloud-provider-first/src/main/java/gitee/equinox/springcloud/controller/Test.java" />
-        <option value="$PROJECT_DIR$/02-springcloud-consumer-first/src/main/java/gitee/equinox/springcloud/config/RestTemplateConfig.java" />
-        <option value="$PROJECT_DIR$/01-springcloud-provider-first/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/02-springcloud-consumer-first/src/main/java/gitee/equinox/springcloud/controller/Test.java" />
-        <option value="$PROJECT_DIR$/03-springcloud-eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/03-springcloud-eureka-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/03-springcloud-eureka-server/src/main/java/gitee/equinox/springcloud/EurekaServer.java" />
-        <option value="$PROJECT_DIR$/04-springboot-eureka-client-provider/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/04-springboot-eureka-client-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/04-springcloud-eureka-client-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/04-springcloud-eureka-client-provider/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/04-springcloud-eureka-client-provider/src/main/java/gitee/equinox/springcloud/controller/Test.java" />
-        <option value="$PROJECT_DIR$/04-springcloud-eureka-client-provider/src/main/java/gitee/equinox/springcloud/Application.java" />
-        <option value="$PROJECT_DIR$/05-springcloud-eureka-client-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/05-springcloud-eureka-client-consumer/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/05-springcloud-eureka-client-consumer/src/main/java/gitee/equinox/springcloud/config/RestTemplateConfig.java" />
-        <option value="$PROJECT_DIR$/05-springcloud-eureka-client-consumer/src/main/java/gitee/equinox/springcloud/controller/Test.java" />
-        <option value="$PROJECT_DIR$/05-springcloud-eureka-client-consumer/src/main/java/gitee/equinox/springcloud/Application.java" />
-        <option value="$PROJECT_DIR$/06-springcloud-eureka-cluster-server9100/pom.xml" />
-        <option value="$PROJECT_DIR$/06-springcloud-eureka-cluster-server9100/src/main/java/gitee/equiinox/springcloud/Server9100.java" />
-        <option value="$PROJECT_DIR$/07-springcloud-eureka-cluster-server9200/src/main/java/gitee/equinox/springcloud/Server9200.java" />
-        <option value="$PROJECT_DIR$/08-springcloud-eureka-client-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/08-springcloud-eureka-client-provider/src/main/java/gitee/equinox/springcloud/Provider.java" />
-        <option value="$PROJECT_DIR$/08-springcloud-eureka-client-provider/src/main/java/gitee/equinox/springcloud/controller/ProviderController.java" />
-        <option value="$PROJECT_DIR$/09-springcloud-eureka-client-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/09-springcloud-eureka-client-consumer/src/main/java/gitee/equinox/springcloud/Consumer.java" />
-        <option value="$PROJECT_DIR$/09-springcloud-eureka-client-consumer/src/main/java/gitee/equinox/springcloud/controller/ConsumerController.java" />
-        <option value="$PROJECT_DIR$/09-springcloud-eureka-client-consumer/src/main/java/gitee/equinox/springcloud/config/RestTemplateConfig.java" />
-        <option value="$PROJECT_DIR$/06-springcloud-eureka-cluster-server9100/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/07-springcloud-eureka-cluster-server9200/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/08-springcloud-eureka-client-provider/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/09-springcloud-eureka-client-consumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/10-eureka-service-ribbon/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/11-eureka-client-provider8081-ribbon/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/11-eureka-client-provider8081-ribbon/src/main/java/gitee/equinox/springcloud/controller/ProviderController1.java" />
+        <option value="$PROJECT_DIR$/12-eureka-client-provider8082-ribbon/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/11-eureka-client-provider8081-ribbon/src/main/java/gitee/equinox/springcloud/Application.java" />
+        <option value="$PROJECT_DIR$/12-eureka-client-provider8082-ribbon/src/main/java/gitee/equinox/springcloud/Application.java" />
+        <option value="$PROJECT_DIR$/12-eureka-client-provider8082-ribbon/src/main/java/gitee/equinox/springcloud/controller/ProviderController2.java" />
+        <option value="$PROJECT_DIR$/13-eureka-client-consumer-ribbon/src/main/java/gitee/equinox/springcloud/controller/ConsumerController.java" />
+        <option value="$PROJECT_DIR$/10-eureka-service-ribbon/src/main/java/gitee/equinox/springcloud/Server.java" />
+        <option value="$PROJECT_DIR$/13-eureka-client-consumer-ribbon/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/13-eureka-client-consumer-ribbon/src/main/java/gitee/equinox/springcloud/config/MyRule.java" />
+        <option value="$PROJECT_DIR$/13-eureka-client-consumer-ribbon/src/main/java/gitee/equinox/springcloud/Application.java" />
+        <option value="$PROJECT_DIR$/14-eureka-client-consumer8080-ribbon/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/14-eureka-client-consumer8080-ribbon/src/main/java/gitee/equinox/springcloud/Application.java" />
+        <option value="$PROJECT_DIR$/14-eureka-client-consumer8080-ribbon/src/main/java/gitee/equinox/springcloud/controller/ConsumerController.java" />
+        <option value="$PROJECT_DIR$/14-eureka-client-consumer8080-ribbon/src/main/java/gitee/equinox/springcloud/config/RestTemplateConfig.java" />
+        <option value="$PROJECT_DIR$/13-eureka-client-consumer-ribbon/src/main/java/gitee/equinox/springcloud/config/RestTemplateConfig.java" />
+        <option value="$PROJECT_DIR$/13-eureka-client-consumer-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/15-server-hystrix/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/15-server-hystrix/src/main/java/gitee/equinox/springcloud/Application.java" />
+        <option value="$PROJECT_DIR$/16-provider-client-hystrix/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/16-provider-client-hystrix/src/main/java/gitee/equinox/springcloud/Application.java" />
+        <option value="$PROJECT_DIR$/17-consumer-client-hystrix/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/17-consumer-client-hystrix/src/main/java/gitee/equinox/springboot/Application.java" />
+        <option value="$PROJECT_DIR$/17-consumer-client-hystrix/src/main/java/gitee/equinox/springboot/controller/Consumer.java" />
+        <option value="$PROJECT_DIR$/16-provider-client-hystrix/src/main/java/gitee/equinox/springcloud/controller/Provider.java" />
+        <option value="$PROJECT_DIR$/17-consumer-client-hystrix/src/main/java/gitee/equinox/springboot/config/RestTemplateConfig.java" />
+        <option value="$PROJECT_DIR$/15-server-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/16-provider-client-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/17-consumer-client-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/14-eureka-client-consumer8080-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/18-maven-modify-server-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/19-maven-modify-client-provider-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/19-maven-modify-client-provider-hystrix/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/19-maven-modify-client-provider-hystrix/src/main/java/gitee/equinox/springcloud/controller/Test.java" />
+        <option value="$PROJECT_DIR$/20-maven-modify-client-consumer-hystrix/src/main/java/gitee/equinox/springcloud/Application.java" />
+        <option value="$PROJECT_DIR$/20-maven-modify-client-consumer-hystrix/src/main/java/gitee/equinox/springcloud/controller/Test.java" />
+        <option value="$PROJECT_DIR$/21-maven-modify-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/21-maven-modify-hystrix-dashboard/src/main/java/gitee/equinox/springcloud/Provider.java" />
+        <option value="$PROJECT_DIR$/21-maven-modify-hystrix-dashboard/src/main/java/gitee/equinox/springcloud/Application.java" />
+        <option value="$PROJECT_DIR$/21-maven-modify-hystrix-dashboard/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/20-maven-modify-client-consumer-hystrix/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/20-maven-modify-client-consumer-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/22-feign-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/22-feign-server/src/main/java/gitee/equinox/springcloud/Application.java" />
+        <option value="$PROJECT_DIR$/23-feign-client-provider/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/23-feign-client-provider/src/main/java/gitee/equinox/springcloud/Application.java" />
+        <option value="$PROJECT_DIR$/23-feign-client-provider/src/main/java/gitee/equinox/springcloud/controller/Test.java" />
+        <option value="$PROJECT_DIR$/24-feign-client-consumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/24-feign-client-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/24-feign-client-consumer/src/main/java/gitee/equinox/springcloud/Application.java" />
       </list>
     </option>
   </component>
@@ -204,12 +229,54 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="07-springcloud-eureka-cluster-server9200" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="15-server-hystrix" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="07-springcloud-eureka-cluster-server9200" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="15-server-hystrix" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="16-provider-client-hystrix" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="16-provider-client-hystrix" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="17-consumer-client-hystrix" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="17-consumer-client-hystrix" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="17-consumer-client-hystrix" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="18-maven-modify-server-hystrix" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="18-maven-modify-server-hystrix" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="18-maven-modify-server-hystrix" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="18-maven-modify-server-hystrix" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -220,10 +287,10 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-13" />
-    <option name="y" value="-13" />
-    <option name="width" value="1942" />
-    <option name="height" value="1052" />
+    <option name="x" value="-17" />
+    <option name="y" value="-17" />
+    <option name="width" value="1945" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -231,91 +298,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06-springcloud-eureka-cluster-server9100" type="462c0819:PsiDirectoryNode" />
+              <item name="04-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06-springcloud-eureka-cluster-server9100" type="462c0819:PsiDirectoryNode" />
+              <item name="04-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06-springcloud-eureka-cluster-server9100" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06-springcloud-eureka-cluster-server9100" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06-springcloud-eureka-cluster-server9100" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gitee" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06-springcloud-eureka-cluster-server9100" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gitee" type="462c0819:PsiDirectoryNode" />
-              <item name="equiinox" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06-springcloud-eureka-cluster-server9100" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gitee" type="462c0819:PsiDirectoryNode" />
-              <item name="equiinox" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06-springcloud-eureka-cluster-server9100" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="07-springcloud-eureka-cluster-server9200" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="07-springcloud-eureka-cluster-server9200" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="07-springcloud-eureka-cluster-server9200" type="462c0819:PsiDirectoryNode" />
+              <item name="04-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="07-springcloud-eureka-cluster-server9200" type="462c0819:PsiDirectoryNode" />
+              <item name="04-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="07-springcloud-eureka-cluster-server9200" type="462c0819:PsiDirectoryNode" />
+              <item name="04-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -323,7 +333,7 @@
             </path>
             <path>
               <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="07-springcloud-eureka-cluster-server9200" type="462c0819:PsiDirectoryNode" />
+              <item name="04-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -332,7 +342,7 @@
             </path>
             <path>
               <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="07-springcloud-eureka-cluster-server9200" type="462c0819:PsiDirectoryNode" />
+              <item name="04-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -342,63 +352,7 @@
             </path>
             <path>
               <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="07-springcloud-eureka-cluster-server9200" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="08-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="08-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="08-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="08-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="08-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gitee" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="08-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gitee" type="462c0819:PsiDirectoryNode" />
-              <item name="equinox" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="08-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gitee" type="462c0819:PsiDirectoryNode" />
-              <item name="equinox" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="08-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="04-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -409,36 +363,76 @@
             </path>
             <path>
               <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="08-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="04-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="09-springcloud-eureka-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="04-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="09-springcloud-eureka-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="04-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="04-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gitee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="04-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gitee" type="462c0819:PsiDirectoryNode" />
+              <item name="equinox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="04-springcloud-eureka-client-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gitee" type="462c0819:PsiDirectoryNode" />
+              <item name="equinox" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="22-feign-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="22-feign-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="09-springcloud-eureka-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="22-feign-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="09-springcloud-eureka-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="22-feign-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="09-springcloud-eureka-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="22-feign-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -446,7 +440,7 @@
             </path>
             <path>
               <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="09-springcloud-eureka-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="22-feign-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -455,7 +449,7 @@
             </path>
             <path>
               <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="09-springcloud-eureka-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="22-feign-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -465,18 +459,56 @@
             </path>
             <path>
               <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="09-springcloud-eureka-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="23-feign-client-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="23-feign-client-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="23-feign-client-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="23-feign-client-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="23-feign-client-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gitee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="23-feign-client-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gitee" type="462c0819:PsiDirectoryNode" />
+              <item name="equinox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="23-feign-client-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gitee" type="462c0819:PsiDirectoryNode" />
               <item name="equinox" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="09-springcloud-eureka-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="23-feign-client-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -487,15 +519,112 @@
             </path>
             <path>
               <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="09-springcloud-eureka-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="23-feign-client-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="24-feign-client-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="24-feign-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="24-feign-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="24-feign-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="24-feign-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gitee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="24-feign-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gitee" type="462c0819:PsiDirectoryNode" />
+              <item name="equinox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="24-feign-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gitee" type="462c0819:PsiDirectoryNode" />
+              <item name="equinox" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="24-feign-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="24-feign-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="24-feign-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="24-feign-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gitee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="24-feign-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gitee" type="462c0819:PsiDirectoryNode" />
+              <item name="equinox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16-SpringCloud_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="24-feign-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gitee" type="462c0819:PsiDirectoryNode" />
+              <item name="equinox" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -506,7 +635,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617363488665" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617444951986" />
     <property name="jdk.selected.JAVA_MODULE" value="15" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/04-springcloud-eureka-client-provider" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -515,6 +644,17 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34252873" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gitee.equinox.springcloud.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Personal\Study\Code\16-SpringCloud_workspace\21-maven-modify-hystrix-dashboard" />
+      <recent name="D:\Personal\Study\Code\16-SpringCloud_workspace\20-maven-modify-client-consumer-hystrix" />
+      <recent name="D:\Personal\Study\Code\16-SpringCloud_workspace\19-maven-modify-client-provider-hystrix" />
+      <recent name="D:\Personal\Study\Code\16-SpringCloud_workspace\18-maven-modify-server-hystrix" />
+    </key>
   </component>
   <component name="RestServicesNavigator">
     <treeState>
@@ -538,71 +678,155 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Consumer">
-    <configuration name="Consumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="09-springcloud-eureka-client-consumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gitee.equinox.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="gitee.equinox.springcloud.Consumer" />
+  <component name="RunManager" selected="Spring Boot.Application (3)">
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="11-eureka-client-provider8081-ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="gitee.equinox.springcloud.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Provider" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="08-springcloud-eureka-client-provider" />
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="21-maven-modify-hystrix-dashboard" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="gitee.equinox.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="gitee.equinox.springcloud.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="20-maven-modify-client-consumer-hystrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gitee.equinox.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="gitee.equinox.springcloud.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="17-consumer-client-hystrix" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="gitee.equinox.springboot.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="10-eureka-service-ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="gitee.equinox.springcloud.Server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="16-provider-client-hystrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gitee.equinox.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="gitee.equinox.springcloud.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="19-maven-modify-client-provider-hystrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gitee.equinox.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="gitee.equinox.springcloud.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="20-maven-modify-client-consumer-hystrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gitee.equinox.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="gitee.equinox.springcloud.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="03-springcloud-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="gitee.equinox.springcloud.EurekaServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="18-maven-modify-server-hystrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gitee.equinox.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="gitee.equinox.springcloud.EurekaServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="01-springcloud-provider-first" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="gitee.equinox.springcloud.Provider" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server9100" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="Server9100" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="06-springcloud-eureka-cluster-server9100" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gitee.equiinox.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="gitee.equiinox.springcloud.Server9100" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server9200" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="Server9200" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="07-springcloud-eureka-cluster-server9200" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gitee.equinox.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="gitee.equinox.springcloud.Server9200" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.Application (1)" />
+      <item itemvalue="Spring Boot.EurekaServer" />
       <item itemvalue="Spring Boot.Server9100" />
+      <item itemvalue="Spring Boot.Application (4)" />
       <item itemvalue="Spring Boot.Server9200" />
+      <item itemvalue="Spring Boot.Application (6)" />
       <item itemvalue="Spring Boot.Provider" />
-      <item itemvalue="Spring Boot.Consumer" />
+      <item itemvalue="Spring Boot.EurekaServer (1)" />
+      <item itemvalue="Spring Boot.Application (7)" />
+      <item itemvalue="Spring Boot.Application (2)" />
+      <item itemvalue="Spring Boot.Application (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Consumer" />
-        <item itemvalue="Spring Boot.Provider" />
-        <item itemvalue="Spring Boot.Server9200" />
-        <item itemvalue="Spring Boot.Server9100" />
+        <item itemvalue="Spring Boot.Application (3)" />
+        <item itemvalue="Spring Boot.Application (2)" />
+        <item itemvalue="Spring Boot.Application (7)" />
+        <item itemvalue="Spring Boot.EurekaServer (1)" />
+        <item itemvalue="Spring Boot.Application (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -618,7 +842,10 @@
       <updated>1617336906972</updated>
       <workItem from="1617336909762" duration="1197000" />
       <workItem from="1617345675267" duration="5957000" />
-      <workItem from="1617359467009" duration="3991000" />
+      <workItem from="1617359467009" duration="4566000" />
+      <workItem from="1617366812270" duration="6506000" />
+      <workItem from="1617414779683" duration="2355000" />
+      <workItem from="1617432088367" duration="11590000" />
     </task>
     <task id="LOCAL-00001" summary="使用了Eureka注册中心以及Ribbon的负载均衡">
       <created>1617351630721</created>
@@ -631,13 +858,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11145000" />
+    <option name="totallyTimeSpent" value="32171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2564784" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26976743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -646,24 +872,24 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44880787" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32959327" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7293128" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997195" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32959327" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32913166" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32959327" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32956812" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3129568" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
@@ -674,6 +900,44 @@
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" />
       <window_info anchor="right" id="Bean Validation" order="12" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26976743" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32959327" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46143058" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997195" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32913166" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32959327" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3129568" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="RestServices" order="10" weight="0.32956812" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" />
+      <window_info anchor="right" id="Bean Validation" order="12" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -683,258 +947,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="使用了Eureka注册中心以及Ribbon的负载均衡" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01-springcloud-provider-first/pom.xml">
+    <entry file="file://$PROJECT_DIR$/14-eureka-client-consumer8080-ribbon/src/main/java/gitee/equinox/springcloud/config/RestTemplateConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-springcloud-provider-first/src/main/java/gitee/equinox/springcloud/Provider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-springcloud-consumer-first/src/main/java/gitee/equinox/springcloud/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-springcloud-consumer-first/src/main/java/gitee/equinox/springcloud/config/RestTemplateConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="7" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-springcloud-consumer-first/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-springcloud-provider-first/src/main/java/gitee/equinox/springcloud/controller/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" selection-start-column="45" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-springcloud-consumer-first/src/main/java/gitee/equinox/springcloud/controller/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-springcloud-consumer-first/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-springcloud-consumer-first/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-springcloud-provider-first/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-springcloud-eureka-client-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-springcloud-eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-springcloud-eureka-client-provider/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-springcloud-eureka-client-consumer/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-springcloud-eureka-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-springcloud-eureka-server/src/main/java/gitee/equinox/springcloud/EurekaServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-springcloud-eureka-client-provider/src/main/java/gitee/equinox/springcloud/controller/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-springcloud-eureka-client-provider/src/main/java/gitee/equinox/springcloud/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-springcloud-eureka-client-consumer/src/main/java/gitee/equinox/springcloud/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-springcloud-eureka-client-consumer/src/main/java/gitee/equinox/springcloud/controller/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-springcloud-eureka-client-consumer/src/main/java/gitee/equinox/springcloud/config/RestTemplateConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="56" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-springcloud-eureka-cluster-server9100/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-springcloud-eureka-client-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-springcloud-eureka-client-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-springcloud-eureka-client-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-springcloud-eureka-cluster-server9200/src/main/java/gitee/equinox/springcloud/Server9200.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-springcloud-eureka-cluster-server9100/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-springcloud-eureka-cluster-server9200/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-springcloud-eureka-cluster-server9100/src/main/java/gitee/equiinox/springcloud/Server9100.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-springcloud-eureka-client-provider/src/main/java/gitee/equinox/springcloud/Provider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-springcloud-eureka-client-provider/src/main/java/gitee/equinox/springcloud/controller/ProviderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-springcloud-eureka-client-provider/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-springcloud-eureka-client-consumer/src/main/java/gitee/equinox/springcloud/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-springcloud-eureka-client-consumer/src/main/java/gitee/equinox/springcloud/config/RestTemplateConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#306#307#0" expanded="true" />
@@ -943,20 +959,376 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09-springcloud-eureka-client-consumer/src/main/java/gitee/equinox/springcloud/controller/ConsumerController.java">
+    <entry file="file://$PROJECT_DIR$/10-eureka-service-ribbon/src/main/java/gitee/equinox/springcloud/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        <state relative-caret-position="115">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-eureka-client-provider8081-ribbon/src/main/java/gitee/equinox/springcloud/controller/ProviderController1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-eureka-client-provider8081-ribbon/src/main/java/gitee/equinox/springcloud/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12-eureka-client-provider8082-ribbon/src/main/java/gitee/equinox/springcloud/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13-eureka-client-consumer-ribbon/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13-eureka-client-consumer-ribbon/src/main/java/gitee/equinox/springcloud/config/RestTemplateConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13-eureka-client-consumer-ribbon/src/main/java/gitee/equinox/springcloud/controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09-springcloud-eureka-client-consumer/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/13-eureka-client-consumer-ribbon/src/main/java/gitee/equinox/springcloud/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13-eureka-client-consumer-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17-consumer-client-hystrix/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15-server-hystrix/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15-server-hystrix/src/main/java/gitee/equinox/springcloud/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15-server-hystrix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16-provider-client-hystrix/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16-provider-client-hystrix/src/main/java/gitee/equinox/springcloud/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16-provider-client-hystrix/src/main/java/gitee/equinox/springcloud/controller/Provider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17-consumer-client-hystrix/src/main/java/gitee/equinox/springboot/config/RestTemplateConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="12" lean-forward="true" selection-end-line="12" />
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17-consumer-client-hystrix/src/main/java/gitee/equinox/springboot/controller/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17-consumer-client-hystrix/src/main/java/gitee/equinox/springboot/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16-provider-client-hystrix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14-eureka-client-consumer8080-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17-consumer-client-hystrix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18-maven-modify-server-hystrix/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19-maven-modify-client-provider-hystrix/src/main/java/gitee/equinox/springcloud/controller/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19-maven-modify-client-provider-hystrix/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20-maven-modify-client-consumer-hystrix/src/main/java/gitee/equinox/springcloud/config/RestTemplateConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20-maven-modify-client-consumer-hystrix/src/main/java/gitee/equinox/springcloud/controller/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="68" column="85" selection-start-line="68" selection-start-column="85" selection-end-line="68" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21-maven-modify-hystrix-dashboard/src/main/java/gitee/equinox/springcloud/controller/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18-maven-modify-server-hystrix/src/main/java/gitee/equinox/springcloud/EurekaServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19-maven-modify-client-provider-hystrix/src/main/java/gitee/equinox/springcloud/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20-maven-modify-client-consumer-hystrix/src/main/java/gitee/equinox/springcloud/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21-maven-modify-hystrix-dashboard/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21-maven-modify-hystrix-dashboard/src/main/java/gitee/equinox/springcloud/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21-maven-modify-hystrix-dashboard/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20-maven-modify-client-consumer-hystrix/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18-maven-modify-server-hystrix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20-maven-modify-client-consumer-hystrix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19-maven-modify-client-provider-hystrix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="26" column="21" lean-forward="true" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/22-feign-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-759" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-springcloud-eureka-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="21" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/22-feign-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/22-feign-server/src/main/java/gitee/equinox/springcloud/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/23-feign-client-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-springcloud-eureka-client-provider/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/23-feign-client-provider/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/23-feign-client-provider/src/main/java/gitee/equinox/springcloud/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/23-feign-client-provider/src/main/java/gitee/equinox/springcloud/controller/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/24-feign-client-consumer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/24-feign-client-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-322">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/24-feign-client-consumer/src/main/java/gitee/equinox/springcloud/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
