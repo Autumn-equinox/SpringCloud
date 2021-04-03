@@ -30,6 +30,11 @@
         <module name="22-feign-server" />
         <module name="23-feign-client-provider" />
         <module name="24-feign-client-consumer" />
+        <module name="25-feign-client-consumer-ableTouse" />
+        <module name="26-eureka-client-zuul-gateway" />
+        <module name="27-eureka-server-zuul" />
+        <module name="28-eureka-client-provider-zuul" />
+        <module name="29-eureka-client-consumer-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -58,6 +63,11 @@
       <module name="22-feign-server" target="1.8" />
       <module name="23-feign-client-provider" target="1.8" />
       <module name="24-feign-client-consumer" target="1.8" />
+      <module name="25-feign-client-consumer-ableTouse" target="1.8" />
+      <module name="26-eureka-client-zuul-gateway" target="1.8" />
+      <module name="27-eureka-server-zuul" target="1.8" />
+      <module name="28-eureka-client-provider-zuul" target="1.8" />
+      <module name="29-eureka-client-consumer-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -87,6 +97,11 @@
       <module name="22-feign-server" options="-parameters" />
       <module name="23-feign-client-provider" options="-parameters" />
       <module name="24-feign-client-consumer" options="-parameters" />
+      <module name="25-feign-client-consumer-ableTouse" options="-parameters" />
+      <module name="26-eureka-client-zuul-gateway" options="-parameters" />
+      <module name="27-eureka-server-zuul" options="-parameters" />
+      <module name="28-eureka-client-provider-zuul" options="-parameters" />
+      <module name="29-eureka-client-consumer-zuul" options="-parameters" />
     </option>
   </component>
 </project>

@@ -25,6 +25,11 @@
     <file url="file://$PROJECT_DIR$/22-feign-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/23-feign-client-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/24-feign-client-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/25-feign-client-consumer-ableTouse" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/26-eureka-client-zuul-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/27-eureka-server-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/28-eureka-client-provider-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/29-eureka-client-consumer-zuul" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

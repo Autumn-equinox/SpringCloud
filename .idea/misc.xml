@@ -28,6 +28,11 @@
         <option value="$PROJECT_DIR$/22-feign-server/pom.xml" />
         <option value="$PROJECT_DIR$/23-feign-client-provider/pom.xml" />
         <option value="$PROJECT_DIR$/24-feign-client-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/25-feign-client-consumer-ableTouse/pom.xml" />
+        <option value="$PROJECT_DIR$/26-eureka-client-zuul-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/27-eureka-server-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/28-eureka-client-provider-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/29-eureka-client-consumer-zuul/pom.xml" />
       </list>
     </option>
   </component>

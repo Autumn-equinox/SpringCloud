@@ -26,6 +26,11 @@
       <module fileurl="file://$PROJECT_DIR$/22-feign-server/22-feign-server.iml" filepath="$PROJECT_DIR$/22-feign-server/22-feign-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/23-feign-client-provider/23-feign-client-provider.iml" filepath="$PROJECT_DIR$/23-feign-client-provider/23-feign-client-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/24-feign-client-consumer/24-feign-client-consumer.iml" filepath="$PROJECT_DIR$/24-feign-client-consumer/24-feign-client-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/25-feign-client-consumer-ableTouse/25-feign-client-consumer-ableTouse.iml" filepath="$PROJECT_DIR$/25-feign-client-consumer-ableTouse/25-feign-client-consumer-ableTouse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/26-eureka-client-zuul-gateway/26-eureka-client-zuul-gateway.iml" filepath="$PROJECT_DIR$/26-eureka-client-zuul-gateway/26-eureka-client-zuul-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/27-eureka-server-zuul/27-eureka-server-zuul.iml" filepath="$PROJECT_DIR$/27-eureka-server-zuul/27-eureka-server-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/28-eureka-client-provider-zuul/28-eureka-client-provider-zuul.iml" filepath="$PROJECT_DIR$/28-eureka-client-provider-zuul/28-eureka-client-provider-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/29-eureka-client-consumer-zuul/29-eureka-client-consumer-zuul.iml" filepath="$PROJECT_DIR$/29-eureka-client-consumer-zuul/29-eureka-client-consumer-zuul.iml" />
     </modules>
   </component>
 </project>
